@@ -20,6 +20,7 @@ define(['css!./styles/chronographWidget.css'], function () {
         });
 
         this.nodes = {};
+        this.url = "";
         this._initialize();
 
         this._logger.debug('ctor finished');
@@ -51,6 +52,7 @@ define(['css!./styles/chronographWidget.css'], function () {
     // Adding/Removing/Updating items
     chronographWidget.prototype.addNode = function (desc) {
         if (desc) {
+            this.url = desc.url
            let iframe = $('<iframe/>', {
                 src: desc.url
            });
@@ -59,7 +61,7 @@ define(['css!./styles/chronographWidget.css'], function () {
             width: '100%',
             height: '100%'
            });
-
+            this._iframe = iframe
             this._el.append(iframe);
         }
     };
@@ -71,6 +73,13 @@ define(['css!./styles/chronographWidget.css'], function () {
     chronographWidget.prototype.updateNode = function (desc) {
         if (desc) {
             // Check if the url is still the same - if not replace the iframe
+            if(this.url != desc.url){
+                this._iframe.attr("src", desc.url)
+                this.url = desc.url
+            }
+
+
+
         }
     };
 
