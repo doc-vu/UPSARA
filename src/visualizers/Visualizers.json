@@ -1,0 +1,8 @@
+[
+  {
+    "id": "chronograph",
+    "title": "chronograph",
+    "panel": "panels/chronograph/chronographPanel",
+    "DEBUG_ONLY": false
+  }
+]

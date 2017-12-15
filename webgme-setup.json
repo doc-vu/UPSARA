@@ -1,4 +1,28 @@
 {
-  "components": {},
-  "dependencies": {}
+  "components": {
+    "addons": {},
+    "decorators": {},
+    "layouts": {},
+    "plugins": {},
+    "routers": {},
+    "seeds": {},
+    "visualizers": {
+      "chronograph": {
+        "src": "panels/chronograph/chronographPanel",
+        "title": "chronograph",
+        "panel": "src/visualizers/panels/chronograph",
+        "secondary": false,
+        "widget": "src/visualizers/widgets/chronograph"
+      }
+    }
+  },
+  "dependencies": {
+    "addons": {},
+    "decorators": {},
+    "layouts": {},
+    "plugins": {},
+    "routers": {},
+    "seeds": {},
+    "visualizers": {}
+  }
 }
