@@ -10,6 +10,7 @@ var config = require('webgme/config/config.default'),
 
 
 
+config.visualization.panelPaths.push(__dirname + '/../node_modules/ui-components/src/visualizers/panels');
 config.visualization.panelPaths.push(__dirname + '/../src/visualizers/panels');
 
 
@@ -19,8 +20,11 @@ config.visualization.panelPaths.push(__dirname + '/../src/visualizers/panels');
 config.visualization.visualizerDescriptors.push(__dirname + '/../src/visualizers/Visualizers.json');
 // Add requirejs paths
 config.requirejsPaths = {
+  'ModelManager': 'panels/ModelManager/ModelManagerPanel',
   'panels': './src/visualizers/panels',
-  'widgets': './src/visualizers/widgets'
+  'widgets': './src/visualizers/widgets',
+  'panels/ModelManager': './node_modules/ui-components/src/visualizers/panels/ModelManager',
+  'widgets/ModelManager': './node_modules/ui-components/src/visualizers/widgets/ModelManager'
 };
 
 

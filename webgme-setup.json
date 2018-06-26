@@ -13,6 +13,13 @@
         "panel": "src/visualizers/panels/chronograph",
         "secondary": false,
         "widget": "src/visualizers/widgets/chronograph"
+      },
+      "welcome": {
+        "src": "panels/welcome/welcomePanel",
+        "title": "welcome",
+        "panel": "src/visualizers/panels/welcome",
+        "secondary": false,
+        "widget": "src/visualizers/widgets/welcome"
       }
     }
   },
@@ -23,6 +30,15 @@
     "plugins": {},
     "routers": {},
     "seeds": {},
-    "visualizers": {}
+    "visualizers": {
+      "ModelManager": {
+        "src": "panels/ModelManager/ModelManagerPanel",
+        "title": "ModelManager",
+        "panel": "src/visualizers/panels/ModelManager",
+        "secondary": false,
+        "widget": "src/visualizers/widgets/ModelManager",
+        "project": "ui-components"
+      }
+    }
   }
 }
