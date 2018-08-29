@@ -1,4 +1,4 @@
-# fecbenchstudio
+# UPSARA
 ## Installation
 First, install the fecbenchstudio following:
 - [NodeJS](https://nodejs.org/en/) (v4.x.x recommended)
