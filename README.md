@@ -1,4 +1,10 @@
 # UPSARA
+
+Performance analysis framework for the Cloud-Fog-Edge based applications.
+Please explore the tool and open issues if faced with error.
+
+Pull requests are welcomed!
+
 ## Installation
 First, install the fecbenchstudio following:
 - [NodeJS](https://nodejs.org/en/) (v4.x.x recommended)
