@@ -7,3 +7,32 @@ First, install the fecbenchstudio following:
 Second, start mongodb locally by running the `mongod` executable in your mongodb installation (you may need to create a `data` directory or set `--dbpath`).
 
 Then, run `webgme start` from the project root to start . Finally, navigate to `http://localhost:8888` to start using fecbenchstudio!
+
+## Modeling Environment
+
+
+# Metric Selection
+![Alt text](./img/usecase_metric.PNG "Metric Selection")
+
+# Application Configuration
+![Alt text](./img/application_model.PNG "Application Configuration")
+
+# Application Deployment Scenarios
+![Alt text](./img/scenario_model.PNG "Application Deployment Scenarios")
+
+# Configuring the Monitoring Toolbox
+![Alt text](./img/cpu_collectd.PNG "Configuring the Monitoring Toolbox")
+
+# Embedded Jupyter Notebook 
+![Alt text](./img/jupyter_viz.PNG "Embedded Jupyter Notebook")
+
+# CPU Utilization Template File
+![Alt text](./img/cpu_util_template.PNG "CPU Utilization Template File")
+
+# Generated Collectd Config
+![Alt text](./img/generated_cpu_util_yaml.PNG "Generated Collectd Config")
+
+
+
+
+
