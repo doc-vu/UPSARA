@@ -29,6 +29,9 @@ Then, run `webgme start` from the project root to start . Finally, navigate to `
 # Configuring the Monitoring Toolbox
 ![Alt text](./img/cpu_collectd.PNG "Configuring the Monitoring Toolbox")
 
+# Feature Model
+![Alt text](./img/feature_model_h.png "Feature Model")
+
 # Embedded Jupyter Notebook 
 ![Alt text](./img/jupyter_viz.PNG "Embedded Jupyter Notebook")
 
@@ -37,6 +40,8 @@ Then, run `webgme start` from the project root to start . Finally, navigate to `
 
 # Generated Collectd Config
 ![Alt text](./img/generated_cpu_util_yaml.PNG "Generated Collectd Config")
+
+
 
 
 
